@@ -1,7 +1,10 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: 0;
     height: 100vh;
-    background-color: red;
 }
 
 a:hover {
@@ -44,7 +47,6 @@ a:active {
     border-radius: 25px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 16px;
 }
@@ -69,7 +71,6 @@ a:active {
     user-select: none;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     cursor: pointer;
     transition: all 50ms ease-in-out;
@@ -96,7 +97,6 @@ a:active {
     display: flex;
     position: absolute;
     flex-direction: column;
-    background-color: red;
     overflow: hidden;
     max-height: 0;
     transition: all 200ms ease-in-out;
@@ -136,7 +136,6 @@ footer .media-link img {
 }
 
 footer span {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 12px;
     color: white;
