@@ -4,12 +4,12 @@ body {
     background-color: red;
 }
 
-button:hover {
+a:hover {
     filter: brightness(80%);
     cursor: pointer;
 }
 
-button:active {
+a:active {
     filter: brightness(70%);
 }
 
@@ -27,7 +27,14 @@ button:active {
     width: 200px;
 }
 
-.top-header button {
+.top-header .auth-buttons {
+    display: flex;
+}
+
+.top-header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 4px;
     width: 120px;
     height: 40px;
@@ -35,6 +42,7 @@ button:active {
     color: #fff;
     border: none;
     border-radius: 25px;
+    text-decoration: none;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -81,6 +89,7 @@ button:active {
 
 .dropdown-wrapper  {
     position: relative;
+    z-index: 10;
 }
 
 .dropdown-item-wrapper {
@@ -102,11 +111,6 @@ button:active {
 
 .dropdown-button:hover + .dropdown-item-wrapper, .dropdown-item-wrapper:hover {
     max-height: 100vh;
-}
-
-.content {
-    min-height: calc(100vh  - 105px - 50px - 75px);
-    background-color: red;
 }
 
 footer {
