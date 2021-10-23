@@ -7,12 +7,12 @@ body {
     height: 100vh;
 }
 
-a:hover {
+a:hover, button:hover {
     filter: brightness(80%);
     cursor: pointer;
 }
 
-a:active {
+a:active, button:hover {
     filter: brightness(70%);
 }
 
