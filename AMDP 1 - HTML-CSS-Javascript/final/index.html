@@ -5,22 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>FamDiner</title>
+    <title>FamDiner - Home</title>
 </head>
 <body>
     <header>
-        <img src="resources/logo.svg" alt="">
-        <div>
-            <button>Register</button>
-            <button>Login</button>
+        <div class="top-header">
+            <img src="resources/logo.svg" alt="">
+            <div>
+                <button>Register</button>
+                <button>Login</button>
+            </div>
         </div>
+        <nav class="top-navbar">
+            <a class="active" href="#home">Home</a>
+            <div class="dropdown-wrapper">
+                <div class="dropdown-button">
+                    Menu
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 16l-6-6h12z"/></svg>
+                </div>
+                <div class="dropdown-item-wrapper">
+                    <a href="#Home">Burger</a>
+                    <a href="#Home">Rice & Seafood</a>
+                    <a href="#Home">Seafood</a>
+                </div>
+            </div>
+            <a href="#Home">About Us</a>
+        </nav>
     </header>
-    <div class="top-navbar">
-        <a href="#home">Home</a>
-        <div>
-            <button class="dropdown-button">Menu</button>
-        </div>
-        <a href="#Home">About Us</a>
+
+    <div class="content">
+        <img src="background_home.jpg" alt="">
     </div>
+
+    <footer>
+        <div class="media-link">
+            <a href="https://jtbernas.com" rel="noopener noreferrer" target="_blank"><img src="resources/twitter.png" alt=""></a>
+            <a href="https://google.com" rel="noopener noreferrer" target="_blank"><img src="resources/facebook.png" alt=""></a>
+            <a href="https://instagram.com/jtbernas" rel="noopener noreferrer" target="_blank"><img src="resources/instagram.png" alt=""></a>
+        </div>
+        <span>Copyright © 2021 Jason Timothy. All Rights Reserved</span>
+    </footer>
 </body>
 </html>
