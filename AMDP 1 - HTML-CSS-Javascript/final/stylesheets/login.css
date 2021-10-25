@@ -11,59 +11,15 @@
     font-weight: 700;
 }
 
-.auth-form {
-    margin: 20px 0;
-}
-
-.auth-form div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 4px 0;
-}
-
-.auth-form div * {
-    margin: 6px 0;
-}
-
-.auth-form label {
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.auth-form input {
-    width: 200px;
-    border: none;
-    outline: none;
-    border-bottom: solid 2px black;
-    font-size: 16px;
-    transition: all 50ms ease-in-out;
-}
-
-.auth-form input:focus {
-    width: 215px;
-    border-color: rgb(73, 73, 73);
-}
-
-.auth-form button {
-    width: 140px;
-    height: 35px;
-    border: none;
-    border-radius: 25px;
-    background-color: #2b2b2b;
-    color: white;
-    font-size: 18px;
-}
-
 .register-redirect {
     margin-bottom: 40px;
 }
 
 .register-redirect a {
     text-decoration: none;
-    color:  blue;
+    color:  #0274b6;
 }
 
 .register-redirect a:hover {
-    color: purple;
+    color: #9228d8;
 }

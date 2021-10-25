@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/register.css">
+    <title>FamDiner - Login</title>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="resources/logo.svg" alt="">
+            <div class="auth-buttons">
+                <a href="register.html">Register</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+        <nav class="top-navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown-wrapper">
+                <a class="dropdown-button" href="#menu">
+                    Menu
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 16l-6-6h12z"/></svg>
+                </a>
+                <div class="dropdown-item-wrapper">
+                    <a href="menu-burger.html">Burger</a>
+                    <a href="#menu-riceandseafood">Rice & Pasta</a>
+                    <a href="#menu-seafood">Seafood</a>
+                </div>
+            </div>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Login</h1>
+        <form name="login-form" class="auth-form" method="post" action="#" onsubmit="return validateRegister()">
+            <div>
+                <label for="fullname-input">Name:</label>
+                <input type="text" name="fullname-input" id="fullname-input">
+            </div>
+            <div>
+                <label for="email-input">Email:</label>
+                <input type="email" name="email-input" id="email-input">
+            </div>
+            <div class="radio-input">
+                <label for="gender-input">Gender</label><br>
+                <input type="radio" name="gender-input" id="male-input" value="male"><label for="male-input">Male</label>
+                <input type="radio" name="gender-input" id="female-input" value="female"><label for="female-input">Female</label>
+            </div>
+            <div>
+                <label for="city-input">City:</label>
+                <select name="city-input" id="city-input">
+                    <option value="ac">Aceh</option>
+                    <option value="ba">Bali</option>
+                    <option value="bt">Banten</option>
+                    <option value="be">Bengkulu</option>
+                    <option value="yo">Yogyakarta</option>
+                    <option value="jk">Jakarta</option>
+                    <option value="go">Gorontalo</option>
+                    <option value="ja">Jambi</option>
+                    <option value="jb">Jawa Barat</option>
+                    <option value="jt">Jawa Tengah</option>
+                    <option value="ji">Jawa Timur</option>
+                    <option value="kb">Kalimantan Barat</option>
+                    <option value="ks">Kalimantan Selatan</option>
+                    <option value="kt">Kalimantan Tengah</option>
+                    <option value="ki">Kalimantan Timur</option>
+                    <option value="ku">Kalimantan Utara</option>
+                    <option value="bb">Bangka Belitung</option>
+                    <option value="kr">Kepulauan Riau</option>
+                    <option value="la">Lampung</option>
+                    <option value="ma">Maluku</option>
+                    <option value="mu">Maluku Utara</option>
+                    <option value="nb">Nusa Tenggara Barat</option>
+                    <option value="nt">Nusa Tenggara Timur</option>
+                    <option value="pa">Papua</option>
+                    <option value="pb">Papua Barat</option>
+                    <option value="ri">Riau</option>
+                    <option value="sr">Sulawesi Barat</option>
+                    <option value="sn">Sulawesi Selatan</option>
+                    <option value="st">Sulawesi Tengah</option>
+                    <option value="sg">Sulawesi Tenggara</option>
+                    <option value="sa">Sulawesi Utara</option>
+                    <option value="sb">Sumatra Barat</option>
+                    <option value="ss">Sumatra Selatan</option>
+                    <option value="su">Sumatra Utara</option>
+                </select>
+            </div>
+            <div>
+                <label for="password-input">Password:</label>
+                <input type="password" name="password-input" id="password-input">
+            </div>
+            <div>
+                <label for="confirm-password-input">Confirm Password:</label>
+                <input type="password" name="confirm-password-input" id="confirm-password-input">
+            </div>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="media-link">
+            <a href="https://jtbernas.com" rel="noopener noreferrer" target="_blank"><img src="resources/twitter.png" alt=""></a>
+            <a href="https://google.com" rel="noopener noreferrer" target="_blank"><img src="resources/facebook.png" alt=""></a>
+            <a href="https://instagram.com/jtbernas" rel="noopener noreferrer" target="_blank"><img src="resources/instagram.png" alt=""></a>
+        </div>
+        <span>Copyright © 2021 Jason Timothy. All Rights Reserved</span>
+    </footer>
+
+    <script src="scripts/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.auth-form {
+    width: 800px;
+}
+
+.auth-form div {
+    align-items: flex-start;
+}
+
+.auth-form .radio-input {
+    display: block;
+    flex-direction: row;
+}
+
+.auth-form input[type="radio"] {
+    width: 20px;
+    margin: 15px 5px;
+}

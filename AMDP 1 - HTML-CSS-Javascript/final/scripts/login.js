@@ -1,10 +1,16 @@
 function validateLogin() {
-    let emailInput = document.getElementById("email-input");
-    let passwordInput = document.getElementById("password-input");
+    let emailInput = document.getElementById('email-input').value;
+    let passwordInput = document.getElementById('password-input').value;
 
-    if (emailInput.value == '' || passwordInput.value == '') {
+    if (emailInput == '' || 
+        emailInput == undefined ||
+        passwordInput == '' ||
+        passwordInput == undefined) {
         alert('Both email and password need to be specified!');
         return false;
     }
+
+    alert('Successfully logged in');
+    return true;
 
 }
