@@ -5,6 +5,7 @@
 body {
     margin: 0;
     height: 100vh;
+    background-color: #333333;
 }
 
 a:hover, button:hover {
@@ -157,8 +158,9 @@ footer span {
 }
 
 .auth-form {
-    width: 200px;
-    margin: 20px 0;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px;
 }
 
 .auth-form div {

@@ -1,0 +1,88 @@
+.content {
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../resources/background_menu.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+}
+
+.menu-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-title p, .menu-title h1 {
+    text-align: center;
+}
+
+.menu-title h1 {
+    margin: 0 0 30px 0;
+    font-size: 42px;
+}
+
+.menu-title p {
+    margin: 0 100px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 20px 0;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px 15px;
+    overflow: hidden;
+}
+
+.menu-item .item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    padding: 20px 40px;
+}
+
+.menu-item .item-content img {
+    height: 100px;
+    margin: 10px 0;
+}
+
+.menu-item .item-content span {
+    color: #000;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.menu-item .popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background-color: #ffd700;
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 120px;
+    color: white;
+    background-color: #383636;
+    font-size: 38px;
+}
+
+.aboutus-content {
+    padding: 35px 100px;
+    background-color: #1e2026;
+    color: white;
+}
+
+.aboutus-content p {
+    margin: 0;
+    font-weight: 500;
+    word-spacing: 4px;
+    line-height: 35px;
+}
+
+.aboutus-content h2 {
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.aboutus-content h3 {
+    font-weight: 500;
+    font-size: 14px;
+}
