@@ -35,6 +35,17 @@ a:active, button:hover {
     display: flex;
 }
 
+.top-header .home-button {
+    width: auto;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.top-header .home-button:hover {
+    filter: none;
+}
+
 .top-header a {
     display: flex;
     justify-content: center;
@@ -150,6 +161,10 @@ footer span {
         height: 130px;
         flex-direction: column;
         padding: 15px 0;
+    }
+
+    .top-header .home-button {
+        margin-top: 15px;
     }
 
     .top-header img {
